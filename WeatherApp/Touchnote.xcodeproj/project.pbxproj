@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217D466D1D7C7C4B00B800FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D466C1D7C7C4B00B800FE /* AppDelegate.swift */; };
+		217D46721D7C7C4B00B800FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217D46701D7C7C4B00B800FE /* Main.storyboard */; };
+		217D46741D7C7C4B00B800FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217D46731D7C7C4B00B800FE /* Assets.xcassets */; };
+		217D46771D7C7C4B00B800FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217D46751D7C7C4B00B800FE /* LaunchScreen.storyboard */; };
+		217D468D1D7C7C4B00B800FE /* TouchnoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D468C1D7C7C4B00B800FE /* TouchnoteUITests.swift */; };
+		217D469C1D7C7C7900B800FE /* CitiesWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D469B1D7C7C7900B800FE /* CitiesWeatherViewController.swift */; };
+		217D469F1D7C7E5200B800FE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D469E1D7C7E5200B800FE /* LocationManager.swift */; };
+		217D46A21D7C804C00B800FE /* CityWeatherCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46A11D7C804C00B800FE /* CityWeatherCellView.swift */; };
+		217D46A51D7C8CBA00B800FE /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46A41D7C8CBA00B800FE /* NetworkingService.swift */; };
+		217D46A71D7C8CD100B800FE /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46A61D7C8CD100B800FE /* APIRequest.swift */; };
+		217D46AA1D7C8D0400B800FE /* ForecastAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46A91D7C8D0400B800FE /* ForecastAPIRequest.swift */; };
+		217D46AC1D7C8DC500B800FE /* DarkSkyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46AB1D7C8DC500B800FE /* DarkSkyAPI.swift */; };
+		217D46AF1D7C8E5E00B800FE /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46AE1D7C8E5E00B800FE /* Weather.swift */; };
+		217D46B11D7C8E7000B800FE /* DarkSkyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217D46B01D7C8E7000B800FE /* DarkSkyParser.swift */; };
+		21F47CAC1D7CA2190056FD5B /* CitiesWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F47CAB1D7CA2190056FD5B /* CitiesWeather.swift */; };
+		21F47CAE1D7CC87F0056FD5B /* TestMainStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F47CAD1D7CC87F0056FD5B /* TestMainStoryboard.swift */; };
+		21F47CB11D7CC9700056FD5B /* TestCityWeatherCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F47CB01D7CC9700056FD5B /* TestCityWeatherCellView.swift */; };
+		21F47CB51D7CCE770056FD5B /* TestWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F47CB41D7CCE770056FD5B /* TestWeather.swift */; };
+		21F47CB81D7CD1040056FD5B /* TestCitiesWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F47CB71D7CD1040056FD5B /* TestCitiesWeatherViewController.swift */; };
+		21F47CBA1D7CD1DE0056FD5B /* TestCitiesWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F47CB91D7CD1DE0056FD5B /* TestCitiesWeather.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		217D467E1D7C7C4B00B800FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217D46611D7C7C4A00B800FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217D46681D7C7C4A00B800FE;
+			remoteInfo = Touchnote;
+		};
+		217D46891D7C7C4B00B800FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 217D46611D7C7C4A00B800FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 217D46681D7C7C4A00B800FE;
+			remoteInfo = Touchnote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		217D46691D7C7C4A00B800FE /* Touchnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		217D466C1D7C7C4B00B800FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217D46711D7C7C4B00B800FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		217D46731D7C7C4B00B800FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		217D46761D7C7C4B00B800FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		217D46781D7C7C4B00B800FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217D467D1D7C7C4B00B800FE /* TouchnoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchnoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217D46831D7C7C4B00B800FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217D46881D7C7C4B00B800FE /* TouchnoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchnoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		217D468C1D7C7C4B00B800FE /* TouchnoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchnoteUITests.swift; sourceTree = "<group>"; };
+		217D468E1D7C7C4B00B800FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		217D469B1D7C7C7900B800FE /* CitiesWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesWeatherViewController.swift; sourceTree = "<group>"; };
+		217D469E1D7C7E5200B800FE /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		217D46A11D7C804C00B800FE /* CityWeatherCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityWeatherCellView.swift; sourceTree = "<group>"; };
+		217D46A41D7C8CBA00B800FE /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		217D46A61D7C8CD100B800FE /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		217D46A91D7C8D0400B800FE /* ForecastAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastAPIRequest.swift; sourceTree = "<group>"; };
+		217D46AB1D7C8DC500B800FE /* DarkSkyAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyAPI.swift; sourceTree = "<group>"; };
+		217D46AE1D7C8E5E00B800FE /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		217D46B01D7C8E7000B800FE /* DarkSkyParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkSkyParser.swift; sourceTree = "<group>"; };
+		21F47CAB1D7CA2190056FD5B /* CitiesWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesWeather.swift; sourceTree = "<group>"; };
+		21F47CAD1D7CC87F0056FD5B /* TestMainStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestMainStoryboard.swift; sourceTree = "<group>"; };
+		21F47CB01D7CC9700056FD5B /* TestCityWeatherCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCityWeatherCellView.swift; sourceTree = "<group>"; };
+		21F47CB41D7CCE770056FD5B /* TestWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWeather.swift; sourceTree = "<group>"; };
+		21F47CB71D7CD1040056FD5B /* TestCitiesWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCitiesWeatherViewController.swift; sourceTree = "<group>"; };
+		21F47CB91D7CD1DE0056FD5B /* TestCitiesWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCitiesWeather.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		217D46661D7C7C4A00B800FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D467A1D7C7C4B00B800FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D46851D7C7C4B00B800FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		217D46601D7C7C4A00B800FE = {
+			isa = PBXGroup;
+			children = (
+				217D466B1D7C7C4B00B800FE /* Touchnote */,
+				217D46801D7C7C4B00B800FE /* TouchnoteTests */,
+				217D468B1D7C7C4B00B800FE /* TouchnoteUITests */,
+				217D466A1D7C7C4A00B800FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		217D466A1D7C7C4A00B800FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				217D46691D7C7C4A00B800FE /* Touchnote.app */,
+				217D467D1D7C7C4B00B800FE /* TouchnoteTests.xctest */,
+				217D46881D7C7C4B00B800FE /* TouchnoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		217D466B1D7C7C4B00B800FE /* Touchnote */ = {
+			isa = PBXGroup;
+			children = (
+				217D46AD1D7C8E5500B800FE /* Models */,
+				217D46A31D7C8CAC00B800FE /* Networking */,
+				217D469D1D7C7E3100B800FE /* Managers */,
+				217D46A01D7C803500B800FE /* Views */,
+				217D469A1D7C7C5B00B800FE /* ViewControllers */,
+				217D466C1D7C7C4B00B800FE /* AppDelegate.swift */,
+				217D46701D7C7C4B00B800FE /* Main.storyboard */,
+				217D46731D7C7C4B00B800FE /* Assets.xcassets */,
+				217D46751D7C7C4B00B800FE /* LaunchScreen.storyboard */,
+				217D46781D7C7C4B00B800FE /* Info.plist */,
+			);
+			path = Touchnote;
+			sourceTree = "<group>";
+		};
+		217D46801D7C7C4B00B800FE /* TouchnoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F47CB31D7CCE6E0056FD5B /* Models */,
+				21F47CAF1D7CC95F0056FD5B /* Views */,
+				21F47CB61D7CD0E60056FD5B /* ViewControllers */,
+				217D46831D7C7C4B00B800FE /* Info.plist */,
+				21F47CAD1D7CC87F0056FD5B /* TestMainStoryboard.swift */,
+			);
+			path = TouchnoteTests;
+			sourceTree = "<group>";
+		};
+		217D468B1D7C7C4B00B800FE /* TouchnoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				217D468C1D7C7C4B00B800FE /* TouchnoteUITests.swift */,
+				217D468E1D7C7C4B00B800FE /* Info.plist */,
+			);
+			path = TouchnoteUITests;
+			sourceTree = "<group>";
+		};
+		217D469A1D7C7C5B00B800FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				217D469B1D7C7C7900B800FE /* CitiesWeatherViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		217D469D1D7C7E3100B800FE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				217D469E1D7C7E5200B800FE /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		217D46A01D7C803500B800FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				217D46A11D7C804C00B800FE /* CityWeatherCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		217D46A31D7C8CAC00B800FE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				217D46A41D7C8CBA00B800FE /* NetworkingService.swift */,
+				217D46A61D7C8CD100B800FE /* APIRequest.swift */,
+				217D46A81D7C8CF300B800FE /* DarkSkyAPI */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		217D46A81D7C8CF300B800FE /* DarkSkyAPI */ = {
+			isa = PBXGroup;
+			children = (
+				217D46AB1D7C8DC500B800FE /* DarkSkyAPI.swift */,
+				217D46B01D7C8E7000B800FE /* DarkSkyParser.swift */,
+				217D46A91D7C8D0400B800FE /* ForecastAPIRequest.swift */,
+			);
+			path = DarkSkyAPI;
+			sourceTree = "<group>";
+		};
+		217D46AD1D7C8E5500B800FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				217D46AE1D7C8E5E00B800FE /* Weather.swift */,
+				21F47CAB1D7CA2190056FD5B /* CitiesWeather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21F47CAF1D7CC95F0056FD5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21F47CB01D7CC9700056FD5B /* TestCityWeatherCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		21F47CB31D7CCE6E0056FD5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				21F47CB41D7CCE770056FD5B /* TestWeather.swift */,
+				21F47CB91D7CD1DE0056FD5B /* TestCitiesWeather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21F47CB61D7CD0E60056FD5B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				21F47CB71D7CD1040056FD5B /* TestCitiesWeatherViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		217D46681D7C7C4A00B800FE /* Touchnote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217D46911D7C7C4B00B800FE /* Build configuration list for PBXNativeTarget "Touchnote" */;
+			buildPhases = (
+				217D46651D7C7C4A00B800FE /* Sources */,
+				217D46661D7C7C4A00B800FE /* Frameworks */,
+				217D46671D7C7C4A00B800FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touchnote;
+			productName = Touchnote;
+			productReference = 217D46691D7C7C4A00B800FE /* Touchnote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		217D467C1D7C7C4B00B800FE /* TouchnoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217D46941D7C7C4B00B800FE /* Build configuration list for PBXNativeTarget "TouchnoteTests" */;
+			buildPhases = (
+				217D46791D7C7C4B00B800FE /* Sources */,
+				217D467A1D7C7C4B00B800FE /* Frameworks */,
+				217D467B1D7C7C4B00B800FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217D467F1D7C7C4B00B800FE /* PBXTargetDependency */,
+			);
+			name = TouchnoteTests;
+			productName = TouchnoteTests;
+			productReference = 217D467D1D7C7C4B00B800FE /* TouchnoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		217D46871D7C7C4B00B800FE /* TouchnoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 217D46971D7C7C4B00B800FE /* Build configuration list for PBXNativeTarget "TouchnoteUITests" */;
+			buildPhases = (
+				217D46841D7C7C4B00B800FE /* Sources */,
+				217D46851D7C7C4B00B800FE /* Frameworks */,
+				217D46861D7C7C4B00B800FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				217D468A1D7C7C4B00B800FE /* PBXTargetDependency */,
+			);
+			name = TouchnoteUITests;
+			productName = TouchnoteUITests;
+			productReference = 217D46881D7C7C4B00B800FE /* TouchnoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		217D46611D7C7C4A00B800FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Desfici;
+				TargetAttributes = {
+					217D46681D7C7C4A00B800FE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					217D467C1D7C7C4B00B800FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 217D46681D7C7C4A00B800FE;
+					};
+					217D46871D7C7C4B00B800FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 217D46681D7C7C4A00B800FE;
+					};
+				};
+			};
+			buildConfigurationList = 217D46641D7C7C4A00B800FE /* Build configuration list for PBXProject "Touchnote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 217D46601D7C7C4A00B800FE;
+			productRefGroup = 217D466A1D7C7C4A00B800FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				217D46681D7C7C4A00B800FE /* Touchnote */,
+				217D467C1D7C7C4B00B800FE /* TouchnoteTests */,
+				217D46871D7C7C4B00B800FE /* TouchnoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		217D46671D7C7C4A00B800FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D46771D7C7C4B00B800FE /* LaunchScreen.storyboard in Resources */,
+				217D46741D7C7C4B00B800FE /* Assets.xcassets in Resources */,
+				217D46721D7C7C4B00B800FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D467B1D7C7C4B00B800FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D46861D7C7C4B00B800FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		217D46651D7C7C4A00B800FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D46AA1D7C8D0400B800FE /* ForecastAPIRequest.swift in Sources */,
+				217D46A51D7C8CBA00B800FE /* NetworkingService.swift in Sources */,
+				217D46A21D7C804C00B800FE /* CityWeatherCellView.swift in Sources */,
+				217D466D1D7C7C4B00B800FE /* AppDelegate.swift in Sources */,
+				217D46AF1D7C8E5E00B800FE /* Weather.swift in Sources */,
+				217D46B11D7C8E7000B800FE /* DarkSkyParser.swift in Sources */,
+				217D469C1D7C7C7900B800FE /* CitiesWeatherViewController.swift in Sources */,
+				217D46A71D7C8CD100B800FE /* APIRequest.swift in Sources */,
+				217D46AC1D7C8DC500B800FE /* DarkSkyAPI.swift in Sources */,
+				21F47CAC1D7CA2190056FD5B /* CitiesWeather.swift in Sources */,
+				217D469F1D7C7E5200B800FE /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D46791D7C7C4B00B800FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F47CB81D7CD1040056FD5B /* TestCitiesWeatherViewController.swift in Sources */,
+				21F47CBA1D7CD1DE0056FD5B /* TestCitiesWeather.swift in Sources */,
+				21F47CB51D7CCE770056FD5B /* TestWeather.swift in Sources */,
+				21F47CB11D7CC9700056FD5B /* TestCityWeatherCellView.swift in Sources */,
+				21F47CAE1D7CC87F0056FD5B /* TestMainStoryboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		217D46841D7C7C4B00B800FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217D468D1D7C7C4B00B800FE /* TouchnoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		217D467F1D7C7C4B00B800FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217D46681D7C7C4A00B800FE /* Touchnote */;
+			targetProxy = 217D467E1D7C7C4B00B800FE /* PBXContainerItemProxy */;
+		};
+		217D468A1D7C7C4B00B800FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 217D46681D7C7C4A00B800FE /* Touchnote */;
+			targetProxy = 217D46891D7C7C4B00B800FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		217D46701D7C7C4B00B800FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217D46711D7C7C4B00B800FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		217D46751D7C7C4B00B800FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				217D46761D7C7C4B00B800FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		217D468F1D7C7C4B00B800FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		217D46901D7C7C4B00B800FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217D46921D7C7C4B00B800FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touchnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.desfici.Touchnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		217D46931D7C7C4B00B800FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Touchnote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.desfici.Touchnote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		217D46951D7C7C4B00B800FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TouchnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.desfici.TouchnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchnote.app/Touchnote";
+			};
+			name = Debug;
+		};
+		217D46961D7C7C4B00B800FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TouchnoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.desfici.TouchnoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchnote.app/Touchnote";
+			};
+			name = Release;
+		};
+		217D46981D7C7C4B00B800FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.desfici.TouchnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Touchnote;
+			};
+			name = Debug;
+		};
+		217D46991D7C7C4B00B800FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TouchnoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.desfici.TouchnoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Touchnote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		217D46641D7C7C4A00B800FE /* Build configuration list for PBXProject "Touchnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D468F1D7C7C4B00B800FE /* Debug */,
+				217D46901D7C7C4B00B800FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217D46911D7C7C4B00B800FE /* Build configuration list for PBXNativeTarget "Touchnote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D46921D7C7C4B00B800FE /* Debug */,
+				217D46931D7C7C4B00B800FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217D46941D7C7C4B00B800FE /* Build configuration list for PBXNativeTarget "TouchnoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D46951D7C7C4B00B800FE /* Debug */,
+				217D46961D7C7C4B00B800FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		217D46971D7C7C4B00B800FE /* Build configuration list for PBXNativeTarget "TouchnoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217D46981D7C7C4B00B800FE /* Debug */,
+				217D46991D7C7C4B00B800FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 217D46611D7C7C4A00B800FE /* Project object */;
+}
