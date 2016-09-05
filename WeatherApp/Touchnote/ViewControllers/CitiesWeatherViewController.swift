@@ -28,12 +28,12 @@ class CitiesWeatherViewController: UIViewController {
         self.title = "Weather"
         self.tableView.dataSource = self
         
-        self.getLocationOfTheCities { (cityName, location) in
-            self.citiesWeather[cityName] = (cityName, location, nil)
-            self.getWeather(location, completion: { (weather) in
-                self.citiesWeather[cityName] = (cityName, location, weather)
-                self.tableView.reloadData()
-            })
+        self.getLocationOfTheCities { [weak self] (cityName, location) in
+            self?.citiesWeather[cityName] = (cityName, location, nil)
+            self?.getWeather(location, completion: { [weak self] (weather) in
+                self?.citiesWeather[cityName] = (cityName, location, weather)
+                self?.tableView.reloadData()
+                })
         }
     }
     
